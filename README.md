@@ -28,7 +28,7 @@ First clone the project running:
 git clone git@github.com:eversonps/to-do-django.git
 ```
 
-after clone, navegue ate o diretorio do projeto e instale o framework django:
+After cloning, navigate to the project directory and install the following dependencies:
 ```
 pip install django djangorestframework
 ```
