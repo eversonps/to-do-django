@@ -11,8 +11,6 @@ __pycache__/
 
 db.sqlite3
 
-requirements.txt
-
 *.log
 
 .vscode/
