@@ -28,9 +28,9 @@ First clone the project running:
 git clone git@github.com:eversonps/to-do-django.git
 ```
 
-After cloning, navigate to the project directory and install the following dependencies:
+After cloning, navigate to the project directory and install all dependencies:
 ```
-pip install django djangorestframework
+pip install -r requirements.txt
 ```
 
 run the project migrations:
