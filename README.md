@@ -28,7 +28,13 @@ First clone the project running:
 git clone git@github.com:eversonps/to-do-django.git
 ```
 
-After cloning, navigate to the project directory and install all dependencies:
+After cloning, create a virtualenv and use it
+```
+python -m venv venv
+source venv/bin/activate
+```
+
+navigate to the project directory and install all dependencies:
 ```
 pip install -r requirements.txt
 ```
