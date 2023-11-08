@@ -3,8 +3,8 @@ from todo.views import TodoListCreate, TodoDeleteShowUpdate
 from django.urls import path
 
 urlpatterns = [
-    # /todo
-    path('todo', TodoListCreate.as_view()),
-    # /todo/5
-    path('todo/<int:pk>', TodoDeleteShowUpdate.as_view()),
+    # /api/todo
+    path("todo", TodoListCreate.as_view()),
+    # /api/todo/5 - Fazer ação especifica em uma tarefa
+    path("todo/<int:pk>", TodoDeleteShowUpdate.as_view()),
 ]
